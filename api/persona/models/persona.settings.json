@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personas",
+  "info": {
+    "name": "Persona"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "text"
+    },
+    "Correo": {
+      "type": "email"
+    },
+    "Edad": {
+      "type": "integer"
+    },
+    "Fecha": {
+      "type": "date"
+    },
+    "contrasena": {
+      "type": "text"
+    },
+    "TipoRol": {
+      "type": "string"
+    }
+  }
+}

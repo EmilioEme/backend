@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/clasificacions",
-      "handler": "clasificacion.find",
+      "path": "/personas",
+      "handler": "persona.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clasificacions/count",
-      "handler": "clasificacion.count",
+      "path": "/personas/count",
+      "handler": "persona.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clasificacions/:id",
-      "handler": "clasificacion.findOne",
+      "path": "/personas/:id",
+      "handler": "persona.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/clasificacions",
-      "handler": "clasificacion.create",
+      "path": "/personas",
+      "handler": "persona.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/clasificacions/:id",
-      "handler": "clasificacion.update",
+      "path": "/personas/:id",
+      "handler": "persona.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/clasificacions/:id",
-      "handler": "clasificacion.delete",
+      "path": "/personas/:id",
+      "handler": "persona.delete",
       "config": {
         "policies": []
       }
